@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Mobiles</title>
+</head>
+<body>
+    <h1>List of Mobiles</h1>
+    <ul>
+        {% for mobile in mobiles %}
+        <li>{{ mobile.model }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
